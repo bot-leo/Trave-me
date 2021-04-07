@@ -10,8 +10,8 @@ import Estilo from './Estilos'
 import Link from '../components/Link'
 
 import Logo from '../assets/logo-trave.png'
-import Google from '../assets/icon-google-96.png'
-import Face from '../assets/icon-face-96.png'
+import Google from '../assets/icons/icon-google.png'
+import Face from '../assets/icons/icon-face.png'
 
 const styles = StyleSheet.create({
     input:{  
@@ -66,8 +66,8 @@ export default function Login(){
     function handleNavigateToCadastroDetails(){
         navigation.navigate('Cadastro');
     }
-    function handleNavigateToLoginDuasFasesDetails(){
-        navigation.navigate('LoginDuasFases');
+    function handleNavigateToEntradaDetails(){
+        navigation.navigate('Entrada');
     }
 
     return(
@@ -83,7 +83,7 @@ export default function Login(){
             </View>
             
             <View >
-                <Botao tittle="Entrar" onPress={handleNavigateToLoginDuasFasesDetails} color="#707070"/>
+                <Botao tittle="Entrar" onPress={handleNavigateToEntradaDetails} color="#707070"/>
                 <Botao tittle="Quero me registrar" onPress={handleNavigateToCadastroDetails} color="#4478B6"/>
             </View>
         

@@ -10,9 +10,9 @@ import Entrada from './pages/Entrada'
 import Destravar from './pages/Destravar'
 import Termos from './pages/Termos'
 import Home from './pages/Home'
+import RoutesTab from './routes/RoutesTab'
 
 const { Navigator, Screen} = createStackNavigator();
-
 
 export default function Routes() {
    return(
@@ -22,6 +22,7 @@ export default function Routes() {
             <Screen name="LoginDuasFases" component={LoginDuasFases} />
             <Screen name="Cadastro" component={Cadastro} />
             <Screen name="Entrada" component={Entrada} />
+            <Screen name="RoutesTab" component={RoutesTab} />
             <Screen name="Destravar" component={Destravar} options={{headerShown:true}} />
             <Screen name="Termos" component={Termos}  />
             <Screen name="Home" component={Home}  options={{headerShown:true}}/>

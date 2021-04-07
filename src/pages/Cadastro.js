@@ -6,8 +6,8 @@ import Botao from '../components/button'
 import Link from '../components/Link'
 
 import { FontAwesome } from '@expo/vector-icons'
-import Google from '../assets/icon-google-96.png'
-import Face from '../assets/icon-face-96.png'
+import Google from '../assets/icons/icon-google.png'
+import Face from '../assets/icons/icon-face.png'
 
 const styles = StyleSheet.create({
     container:{

@@ -25,7 +25,7 @@ export default function App() {
 //se as fontes não forem carregadas então ele ira permancer na tela de carregamento do app
 //caso elas forem carregadas ira se iniciar o sistema de navegação normalmente.
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return <AppLoading />
   } else {
       return <Routes />
     }

@@ -10,7 +10,7 @@ import Estilo from './Estilos'
 
 
 
-import UserPerfil from '../assets/user.jpg'
+import UserPerfil from '../assets/imgs/user.jpg'
 
 const styles = StyleSheet.create({
     boxLinks:{
@@ -71,7 +71,7 @@ export default function Entrada(){
     const navigation = useNavigation();
     
     function handleNavigateToDestravarDetails(){
-        navigation.navigate('Destravar');
+        navigation.navigate('RoutesTab');
     }
     function handleNavigateToTermosDetails(){
         navigation.navigate('Termos');

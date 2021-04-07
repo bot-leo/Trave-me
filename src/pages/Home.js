@@ -5,15 +5,14 @@ import Botao from '../components/button'
 
 //importes das imagens do logo e banners.                                          '
 import Logo from '../assets/logo-trave.png'
-import BannerPrimary from '../assets/PrimeiroBanner.png'
-import BannerSecundary from '../assets/BANER-TRAVEME.png'
+import BannerPrimary from '../assets/imgs/PrimeiroBanner.png'
+import BannerSecundary from '../assets/imgs/BANER-TRAVEME.png'
 
 
 //importes dos icones
 import QrCode from '../assets/qrcode_icon.png'
 import Clicks from '../assets/clicks_icon.png'
 import Local from '../assets/local_icon.png'
-
 
 
 const styles = StyleSheet.create({
