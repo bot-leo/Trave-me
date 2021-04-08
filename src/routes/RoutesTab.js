@@ -9,7 +9,7 @@ import Locais from '../pages/Locais'
 import Home from '../pages/Home'
 import Clicks from '../pages/Clicks'
 import Travas from '../pages/Destravar'
-import { HeaderTitle } from '@react-navigation/stack'
+
 
 const { Navigator, Screen } = createBottomTabNavigator();
 

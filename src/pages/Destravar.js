@@ -1,20 +1,29 @@
 import React from 'react'
 
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, Image } from 'react-native'
+
+import QrCode from '../assets/icon-qrcode-display.png'
 
 import Estilo from './Estilos'
 
-const styles = StyleSheet.create({
-   
-});
 
 export default function Destravar(){
     return(
-        <View style={Estilo.container}>
+        <View style={styles.container}>
             <Text>Ligue o bluetooth, aponte o quadrado
                 para o QR-code e DESTRAVE seu locker
             </Text>
+            <Image source={QrCode}/>
 
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems:'center',
+        
+    },
+   
+});
